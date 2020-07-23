@@ -1,0 +1,60 @@
+﻿HTML Colors
+untuk sebuah warna kita perlu memhami penggunaan RGB, HEX, HSL, RGBA, HSLA value untuk menggunakannya
+hal ini HTML menggunakan value tersebut untuk penggunaan warna.
+
+seperti sebelumnya kalian bisa mensetting warna heading sesuai warna yang tersedia apakah seperti "background-color:DodgerBlue;" atau 
+kalian bisa set menjadi ".....color=Tomato;"
+kalian juga bisa menset warna background dari text tersebut dengan menggunakan style="background-color:.....". sedangkan untuk text juga 
+bisa gunakan style="color:....;" 
+
+<h1 style="background-color:DodgerBlue;">Hello World</h1>
+
+<h1 style="color:Tomato;">Hello World</h1>
+
+Color values
+di dalam HTML, warna bisa dispesifikasikan menggunakan RGB values,
+dengan format rgb(red, green, blue) dengan intensitifitas 0 sampai 255.
+seperti penggunaan rgb(255,0,0) yang artinya akan menampilkan warna merah.
+<h1 style="background-color:rgb(60, 179, 113);">rgb(60, 179, 113)</h1>
+
+sedangkan penggunaan color lainya dapat dilakukan dengan HEX value, atau dengan kata lain 
+hexa decimal. formatnya seperti rrggbb dimana hexa desimal rr gg dan bb nya dari 00 sampai ff.
+<h1 style="background-color:#ff0000;">#ff0000</h1>
+
+yang lainnya kita dapat memakai HSL value dimana HSL value menggunakan hue, saturation, dan lightness sebagai acuannya.
+untuk hue bisa di ibaratkan color wheel dimana 0 sampai 360 adalah angkanya, dari 0 adalah merah, 120 adalah hijau, dan 240 adalah biru.
+sedangkan saturation adalah persentase 0% adalah shade of gray dan 100% merupakan full color.
+lightness merukapan kecerahan dari gambar dimana 0 % merupakan hitam, 50% merupakan di antara hitam dan putih, dan terakhir 100% merupakan putih.
+<h1 style="background-color:hsl(147, 50%, 47%);">hsl(147, 50%, 47%)</h1>
+
+yang terakhir adalah penggunaan RGBA value, dimana seperti RGB dengan tambahan A merupakan Alpha.
+RBGA(red, green, blue, alpha) dimana alpha menggunakan 0.0(tranparan) dan 1.0(tidak transparan)/
+
+coba koding di bawah !
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
+<h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
+<br>
+<h3 style="color:Tomato;">Hello World</h3>
+<br>
+<h1 style="border:2px solid DodgerBlue;">This one with border !</h1>
+<br>
+<p style="background-color:Tomato;">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+</p>
+<br>
+<h1 style="background-color:rgb(255, 165, 0);">rgb(255, 165, 0)</h1>
+<br>
+<h1 style="background-color:#ee82ee;">#ee82ee</h1>
+<br>
+<h1 style="background-color:hsl(240, 15%, 50%);">hsl(240, 100%, 50%)</h1>
+<br>
+<h1 style="background-color:rgba(255, 99, 71, 0.2);">rgba(20, 99, 71, 0.2)</h1>
+
+</body>
+</html>

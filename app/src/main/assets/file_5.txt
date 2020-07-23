@@ -1,0 +1,46 @@
+﻿HTML images syntax
+di dalam HTML gambar di difinisikan dengan tag <img>
+<img> tag hanya memuat atribut saja dan tidak memakai sebuah tag penutup.
+sedangka src atribut merupakan menspesifikasikan sebuah URL dari image tersebut.
+<img src="url">
+
+The alt Attribute
+penggunaan alt merupakan alternatif dari gambar apabila tidak dapat memuat gambar tersebut 
+maka akan digantikan dengan sebuah text yang termuat di atribut alt.
+<img src="img_chania.jpg" alt="Flowers in Chania">
+
+Image Size - Width and Height
+kalian juga bisa mengubah tinggi dan lebar dari sebuah gambar dalam atribut <img>
+<img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
+
+Image in another folder
+dalam penggunaan src kita menggunakan sub folder untuk menempatkan gambar seperti /gambar/image.jpg hal 
+itu diperuntukan untuk pengguna komputer dalam memuat sebuah gambar.
+<img src="/images/html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+atau kita juga bisa menggunakan src dari beberapa web addres gambar untuk ditempatkan di src
+<img src="https://www.w3schools.com/images/ascard_green.jpg" alt="ascard.com">
+
+Image as a Link
+kita tinggal memasukan tag <a> kedalamnya.
+
+note : "jika kalian memasukan img src="blabla.jpg" ini tidak akan berfungsi di dalam aplikasi ini, tetapi kita mempunyai 
+hal yang lebih menarik kita akan menggunakan link gambar untuk contoh kali ini"
+
+coba koding di bawah ini !
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Image as a Link</h2>
+<p>The image is a link. You can click on it.</p>
+
+<a href="https://www.youtube.com/channel/UCJpwXyFE7P8ZPREL9TTwwdA">
+  <img src="https://yt3.ggpht.com/a/AGF-l78nWyQ-c1fZftZ0QjAW2syfBF5gy295e2rcfg=s100-c-k-c0xffffffff-no-rj-mo" alt="AS Card Gaming" style="width:42px;height:42px;border:0;">
+</a>
+
+<p>Add "border:0;" to prevent IE9 (and earlier) from displaying a border around the image.</p>
+
+</body>
+</html>
+

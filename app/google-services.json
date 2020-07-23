@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "692333010185",
+    "firebase_url": "https://mediabelajarhtml.firebaseio.com",
+    "project_id": "mediabelajarhtml",
+    "storage_bucket": "mediabelajarhtml.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692333010185:android:34cd6aafd2f7628cab07d8",
+        "android_client_info": {
+          "package_name": "com.corp.aspy.mediabelajarhtml"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692333010185-2604ts65vtqk4ra74efu30s2bsm8hh0s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.corp.aspy.mediabelajarhtml",
+            "certificate_hash": "c27997be6881d2bc3502778e5f186175a50c4e10"
+          }
+        },
+        {
+          "client_id": "692333010185-1b3o6lh0sd5sl7b2kk96rgjl9j8soka4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSSt_wug-mlIMQwYoWUGFVaLmT8l0OTO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692333010185-1b3o6lh0sd5sl7b2kk96rgjl9j8soka4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

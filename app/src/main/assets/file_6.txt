@@ -1,0 +1,22 @@
+﻿HTML Comments
+Comment tag berfungsi ini untuk menambahkan catatan pada baris koding
+
+HTML Comment Tags
+kalian bisa menuliskan comment seperti ini 
+<!-- Write your comments here -->
+tanda (!) adalah tanda untuk sebuah komen
+kebanyakan para programer menggunakan ini sebagai catatan
+atau hanya untuk menghapus beberapa perintah yang tidak ingin di hapus
+sangat berguna untuk debugging.
+
+coba koding di bawah ini !
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- Do not display this at the moment
+<img border="0" src="pic_trulli.jpg" alt="Trulli">
+-->
+<p>its nothing in here, cuz there is a comment</p>
+</body>
+</html>

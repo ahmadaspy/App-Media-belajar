@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Image as a Link</h2>
+<p>The image is a link. You can click on it.</p>
+
+<a href="https://www.youtube.com/channel/UCJpwXyFE7P8ZPREL9TTwwdA">
+  <img src="https://yt3.ggpht.com/a/AGF-l78nWyQ-c1fZftZ0QjAW2syfBF5gy295e2rcfg=s100-c-k-c0xffffffff-no-rj-mo" alt="AS Card Gaming" style="width:42px;height:42px;border:0;">
+</a>
+
+<p>Add "border:0;" to prevent IE9 (and earlier) from displaying a border around the image.</p>
+
+</body>
+</html>
+

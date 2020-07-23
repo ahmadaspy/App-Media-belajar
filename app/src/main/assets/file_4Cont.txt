@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
+<h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
+<br>
+<h3 style="color:Tomato;">Hello World</h3>
+<br>
+<h1 style="border:2px solid DodgerBlue;">This one with border !</h1>
+<br>
+<p style="background-color:Tomato;">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+</p>
+<br>
+<h1 style="background-color:rgb(255, 165, 0);">rgb(255, 165, 0)</h1>
+<br>
+<h1 style="background-color:#ee82ee;">#ee82ee</h1>
+<br>
+<h1 style="background-color:hsl(240, 15%, 50%);">hsl(240, 100%, 50%)</h1>
+<br>
+<h1 style="background-color:rgba(255, 99, 71, 0.2);">rgba(20, 99, 71, 0.2)</h1>
+
+</body>
+</html>

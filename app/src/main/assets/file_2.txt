@@ -1,0 +1,31 @@
+﻿dalam pembuatan style di html terikat yang namanya tag <style> di dalam beberap tag lainnya.
+hal ini seperti css didalam html langsung.
+
+background color
+dalam pembuatan tag body anda bisa membuat warna yang beragam dari color red dan biru tergantung keinginan anda.
+<body style="bacground:powderblue;">
+
+text color
+tidak hanya warna background tetapi warna tulisan juga bisa di modifikasi dari default hitam bisa berbagai warna yang diinginkan.
+hal ini warna bisa duganakan code dari warna yang sering dipakai oleh web seperi hex value.
+<h1 style="color:blue;">warna blue cuy !</h1>
+
+text size
+seperti hal lainya dalam memformat text, size merupakan hal terpenting.
+<h1 style="font-size:300%;">oouh text size</h1>
+
+text alginment
+sedangkan dalam penempatan text bisa dilakukan aligment untuk menempatkan text apakah ditengah atau lainnya.
+<h1 style="text-align:center;">centerd heading</h1>
+
+coba koding dibawah ini !
+
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;">
+
+<h1 style="color:blue;font-family:verdana;">This is a heading</h1>
+<p style="font-size:160%;text-align:center;">This is a paragraph.</p>
+
+</body>
+</html>

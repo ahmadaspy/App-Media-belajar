@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MateriView">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/CobaHtml_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/materi_paragraph"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/buttons"
+                android:text="Lihat Contoh"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="15dp"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/ExerciseHtml_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/CobaHtml_btn"
+                android:layout_marginLeft="15dp"
+                android:text="Latihan Koding"
+                android:background="@drawable/buttons"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="15dp"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/Quiz_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/ExerciseHtml_btn"
+                android:layout_marginLeft="15dp"
+                android:text="Quiz"
+                android:background="@drawable/buttons"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="15dp"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/materi_paragraph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_mater"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/chelsea_market"
+                android:text="ini paragraf" />
+
+            <TextView
+                android:id="@+id/title_mater"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+
+                android:text="ini text"
+                android:textSize="30sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
